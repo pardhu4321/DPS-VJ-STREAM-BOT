@@ -73,8 +73,8 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+EpPuvHaVWkgwNzhl')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'dps_linkz') # Support Chat Link Without https:// or @
 
 # True Or False
-PM_SEARCH = bool(environ.get('PM_SEARCH', True))
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+PM_SEARCH = bool(environ.get('PM_SEARCH', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
