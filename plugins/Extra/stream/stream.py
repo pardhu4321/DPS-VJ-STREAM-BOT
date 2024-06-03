@@ -44,7 +44,7 @@ async def stream_start(client, message):
                     InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ 📥', url=download)
                 ],
                 [
-                    InlineKeyboardButton('✇ SHARE OUR BOT ✇', url="https://t.me/dps_file_to_link2_bot")
+                    InlineKeyboardButton('✇ SHARE OUR BOT ✇', url="https://t.me/share/url?url=https://t.me/dps_file_to_link2_bot?start")
                 ]
             ] 
         )
